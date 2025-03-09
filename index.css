@@ -1,0 +1,564 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-nav{
+    width: 100%;
+    height:30px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+    padding: 10px 10px 0px 10px;
+}
+
+.navb .iiii{
+    font-size: 18px;
+    margin-right: 1px;
+    color: #a5c422;;
+    font-weight: 800;
+}
+
+.fix{
+    position:sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white !important;
+}
+
+.but{
+    font-weight: 700;
+    padding: 5px;
+    width: 18%;
+    border: none;
+    background-color: #a5c422;;
+    color: white;
+    border-radius: 2px
+}
+
+.first{
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.first img{
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.first .texts{
+    position: absolute;
+    text-align: center;
+    color:white ;
+}
+
+.texts h1{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.texts p{
+    margin-bottom: 0;
+}
+
+.texts button{
+    font-weight: 700;
+    padding: 5px;
+    width: 35%;
+    border: none;
+    background-color: #2196F3;
+    color: white;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width:512px) and (max-width:750px) {
+    
+.texts h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.texts button{
+    width: 45%;
+}
+
+.texts p{
+    font-size: 14px;
+}
+
+}
+
+@media only screen and (min-width:320px) and (max-width:512px){
+        
+.texts h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.texts button{
+    width: 60%;
+}
+
+.texts p{
+    font-size: 13px;
+}
+}
+
+.two{
+    width: 100%;
+    height: 120vh;
+    background: url(./department/img/about-bg.jpg) no-repeat top center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+/* 
+.contents{
+    width: 80%;
+    animation: ani1 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@keyframes ani1 {
+    from{
+        opacity: 0;
+        scale: 0.5;
+        transform: translateX(-200px);
+    }
+
+    to{
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0px);
+    }
+} */
+
+
+
+.contents h1{
+    font-weight:bold;
+    font-size: 50px;
+    margin-bottom: 45px;
+}
+
+.ip img{
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    margin-right: 1rem;
+}
+
+.contents2 p{
+    font-weight: 500;
+    color: #757575;
+    width: 60%;
+}
+
+.contents i{
+    color: #a5c422;;
+}
+
+
+@media only screen and (max-width:1120px){
+
+    .contents{
+        padding: 50px;
+    }
+
+    .contents h1{
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    
+.contents2 p{
+    font-weight: 500;
+    color: #757575;
+    width: 85%;
+}
+
+
+.contents br{
+    display: none;
+}
+
+}
+
+
+@media only screen and (max-width:790px){
+       
+.contents2 p{
+    width: 100%;
+}
+
+.contents h1{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.contents{
+    padding: 10px;
+    width: 100%;
+}
+
+.two{
+    padding: 10px;
+}
+
+.contents br{
+    display: none;
+}
+
+}
+
+.card-body h2{
+    font-weight: 700;
+}
+
+
+.card-body p{
+    color: #757575;
+}
+
+.three-doctors{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.six-type{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.dep{
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.ull li{
+    color: #757575;
+}
+
+.three-doctors .card{
+    background-color: #efefef !important;
+    border: 1px solid gainsboro;
+}
+
+.six-type .card{
+    box-shadow: 8px 8px 20px rgb(209, 209, 209);
+}
+
+.last-apo{
+    width: 100%;
+    min-height: 550px;
+    background-color: white;
+    padding: 20px;
+}
+
+.last-apo img{
+    width: 600px;
+    animation: left-side linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@keyframes left-side {
+    from{
+        
+        transform: translateX(-400px);
+    }
+
+    to{
+        
+        transform: translateX(0px);
+    }
+}
+
+.lasinput{
+    width: 50%;
+    animation: inputs linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    
+}
+
+
+@keyframes inputs {
+    from{
+        
+        transform: translateX(400px);
+    }
+
+    to{
+        
+        transform: translateX(0px);
+    }
+}
+
+#exampleFormControlInput1{
+    width: 100% !important;
+}
+
+
+@media only screen and (max-width:1192px){
+
+    .last-apo img{
+        width: 450px;
+    }
+}
+
+
+@media only screen and (max-width:920px){
+        
+    .last-apo img{
+        width: 370px;
+        margin-bottom: 30px;
+    }
+
+    .lasinput{
+        width: 70%;
+    }
+
+} 
+
+ @media only screen and (max-width:770px){
+
+    .last-apo{
+        flex-direction: column;
+    }
+
+    
+.last-apo img{
+    width: 450px;
+    margin-bottom: 30px;
+}
+
+.lasinput{
+    width: 90%;
+}
+
+}
+
+@media only screen and (max-width:460px){
+
+    .last-apo{
+        flex-direction: column;
+    }
+
+    
+.last-apo img{
+    width: 320px;
+    margin-bottom: 30px;
+}
+
+.lasinput{
+    width: 95%;
+}
+
+}
+
+/* @media only screen and (max-width:460px){
+      
+.last-apo img{
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.lasinput h1{
+    font-size: 35px;
+}
+
+} */
+
+.bbb button{
+    width: 100%;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    background-color:#a5c422;
+    color: white;
+}
+
+.iframee{
+    width: 100%;
+    min-height: 350px;
+    margin-bottom: 80px;
+}
+
+.iframee iframe{
+    width: 100%;
+}
+
+.hh5{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.iccoon i{
+    margin-right: 8px;
+}
+
+/* ///// HOVER ///// */
+
+
+.cardss:hover{
+    scale: 1.1;
+}
+
+.card{
+    transition: all 0.5s;
+}
+
+.cardss:hover .titt{
+    color:#a5c422;
+}
+
+.titt{
+    transition: all 0.5s;
+}
+
+
+.six-type .one{
+    animation: upp1 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%;
+}
+
+@keyframes upp1 {
+    from{
+        opacity: 0;
+        scale: 0.6;
+    }
+
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+.six-type .twoo{
+    animation: upp2 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+@keyframes upp2 {
+    from{
+        opacity: 0;
+        scale: 0.4;
+    }
+
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+.six-type .three{
+    animation: upp3 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 45%;
+}
+
+@keyframes upp3 {
+    from{
+        opacity: 0;
+        scale: 0.2;
+    }
+
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+/* NEXT THREE */
+
+
+.six-type .four{
+    animation: upp4 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%;
+}
+
+@keyframes upp4 {
+    from{
+        opacity: 0;
+        scale: 0.6;
+    }
+
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+.six-type .five{
+    animation: upp5 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+@keyframes upp5 {
+    from{
+        opacity: 0;
+        scale: 0.4;
+    }
+
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+.six-type .six{
+    animation: upp6 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 45%;
+}
+
+@keyframes upp6 {
+    from{
+        opacity: 0;
+        scale: 0.2;
+    }
+
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.card-link{
+    text-decoration: none;
+}
